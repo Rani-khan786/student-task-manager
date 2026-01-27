@@ -5,7 +5,7 @@
 
 ## 2. Setup Instructions
 ```bash
-git clone <repo>
+git clone <student-task-manager>
 cd student-task-manager
 npm install
 node server.js
