@@ -11,14 +11,13 @@ cd student-task-manager
 npm install
 node server.js
 ```
-Open the application in your browser at:**http://localhost:3000**
+Open the application in your browser at: **http://localhost:3000**
 
 ## 3. The Logic (How I Thought)
 ### Why did you choose this approach?
 I chose **Node.js** with **Express** for the backend to keep the entire project JavaScript-based, making it easy to understand and maintain. For the frontend, I intentionally used **Vanilla HTML, CSS, and JavaScript** instead of frameworks like React to strictly follow the requirement of simplicity and ensure the application runs locally without any build tools or complex setup.
 
-
-**Communication:**To achieve SPA behavior, the frontend communicates with the backend using the `fetch() API`. Tasks are added, listed, and deleted dynamically by updating the DOM, ensuring the page never reloads and the user experience remains smooth.
+**Communication:** To achieve SPA behavior, the frontend communicates with the backend using the `fetch() API`. Tasks are added, listed, and deleted dynamically by updating the DOM, ensuring the page never reloads and the user experience remains smooth.
 
 **Storage:** For storage, I used a local `tasks.json` file instead of a database. This decision ensures full portability—the project can be cloned or zipped and will run instantly on any machine with Node.js installed.
 
